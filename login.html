@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="login.css" />
 </head>
 
+    
 <body>
     <h1>
         <img src="images/logo.jpg" height="50px" /><u><b>The Art Gallery</b></u>
     </h1>
     <hr />
     <hr />
-    <div class="body">
+    <div class="border">
         <form id="text">
             <b>User Login ! </b>
 
             <img src="images/logo.jpg" height="80px" id="bt">
               
 
-              <hr />
+            <hr />
         
-            <input type="text" placeholder="@Username/Email/Phone Number" id="email" class="input">
-            <input type="text" placeholder="@Password" id="password" class="input">
-            <input type="button" value="Reset" class="bttn" id="id1" class="buttn" required="true"/>
-            <input type="submit" value="Submit" class="bttn" class="buttn"required="true" />
+            <input type="email" placeholder="@Username/Email/Phone Number" class="input" required="true">
+            <br />
+            <input type="password"  placeholder="@Password" id="password" class="input" required="true" />
+            <br />
+            <span style="text-shadow: none; font-size: 15px";>
+            <a href="...."> Click New User (Register Here)</a></span>
 
-        </div>
+            <br>
+            <input type="button" value="Reset" class="bttn" id="id1" required="true"/>
+            <input type="submit" value="Submit" class="bttn" required="true" />
+        </form>
+        
     </div>
-</form>
+
 
 </body>
-
 </html>
